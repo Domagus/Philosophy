@@ -4,6 +4,7 @@ body {
 	background-color: rgb(33, 18, 18);
 	color: rgb(188, 183, 183);
 	font-family: "Philosopher", sans-serif;
+	text-decoration: none;
 }
 
 #main-page {
@@ -53,6 +54,7 @@ nav p {
 	width: 8rem;
 	text-align: center;
 	margin-right: 10rem;
+	text-decoration: none;
 }
 
 nav img {
@@ -74,6 +76,7 @@ nav li:active {
 	font-size: larger;
 	background-color: rgb(107, 106, 106);
 	color: rgb(188, 183, 183);
+	text-decoration: none;
 }
 
 a:visited {
