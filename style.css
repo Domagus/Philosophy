@@ -11,6 +11,10 @@ p:active {
 	color: rgb(188, 183, 183);
 }
 
+*:link {
+	color: rgb(188, 183, 183);
+}
+
 #main-page {
 	background-color: rgb(0, 0, 0);
 }
@@ -104,7 +108,7 @@ a:visited {
 .epitome-content {
 	display: block;
 	margin-left: 2rem;
-	width:90%;
+	width: 90%;
 }
 
 .epitome-content img {
@@ -126,7 +130,7 @@ a:visited {
 	line-height: 1.5em;
 }
 
-.philosopher-data h3{
+.philosopher-data h3 {
 	text-align: center;
 }
 /* Articles */
@@ -162,4 +166,10 @@ a:visited {
 .back {
 	text-align: end;
 	margin-right: 1em;
+}
+
+/* in progress */
+
+#in-progress {
+	padding: 3rem;
 }
