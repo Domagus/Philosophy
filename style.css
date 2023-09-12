@@ -94,7 +94,42 @@ a:visited {
 	}
 }
 
-/* Article */
+/* Epitome section */
+
+.philosopher-image {
+	width: 230px;
+	height: 300px;
+}
+
+.epitome-content {
+	display: block;
+	margin-left: 2rem;
+	width:90%;
+}
+
+.epitome-content img {
+	border-radius: 25%;
+}
+
+.epitome-author {
+	display: flex;
+	padding: 2em;
+	border: solid 0.25em rgb(54, 5, 5);
+	margin-bottom: 2em;
+}
+
+.philosopher-data {
+	width: 100%;
+	padding: 1em;
+	text-align: justify;
+	text-justify: inter-word;
+	line-height: 1.5em;
+}
+
+.philosopher-data h3{
+	text-align: center;
+}
+/* Articles */
 
 .epitome-text {
 	text-align: justify;
@@ -114,6 +149,11 @@ a:visited {
 	padding: 1.5em;
 }
 
+/* News section */
+#news li {
+	padding: 0.5em;
+}
+
 /* back button */
 #back-main {
 	text-align: center;
@@ -122,7 +162,4 @@ a:visited {
 .back {
 	text-align: end;
 	margin-right: 1em;
-}
-#news li{
-	padding: 0.5em;
 }
