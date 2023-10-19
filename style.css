@@ -133,6 +133,24 @@ a:visited {
 .philosopher-data h3 {
 	text-align: center;
 }
+
+.epitome-set {
+	display: none;
+}
+
+.show-epitomes-button {
+	background-color: rgb(200, 95, 95);
+	padding: 1em 1.5em;
+	position: relative;
+	left: 25%;
+	margin-top: 3em;
+	font-weight: 600;
+}
+
+.show-epitomes-button:hover {
+	cursor: pointer;
+	background-color: brown;
+}
 /* Articles */
 
 .epitome-text {
