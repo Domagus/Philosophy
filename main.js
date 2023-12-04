@@ -8,8 +8,10 @@ for (let i = 0; i < showMoreButtons.length; i++) {
 	  // Toggle the display property for the corresponding epitome-set
 	  if (epitomeSets[i].style.display === 'none' || epitomeSets[i].style.display === '') {
 		epitomeSets[i].style.display = 'block';
+		showMoreButtons[i].innerHTML = 'Ukryj streszczenia'
 	  } else {
 		epitomeSets[i].style.display = 'none';
+		showMoreButtons[i].innerHTML = 'Pokaż streszczenia'
 	  }
 	});
   }

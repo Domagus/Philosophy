@@ -100,10 +100,7 @@ a:visited {
 
 /* Epitome section */
 
-.philosopher-image {
-	width: 230px;
-	height: 300px;
-}
+
 
 .epitome-content {
 	display: block;
@@ -113,7 +110,15 @@ a:visited {
 
 .epitome-content img {
 	border-radius: 25%;
+	width: 230px;
+	height: 300px;
+	padding:1em;
 }
+
+#Seneca-image {
+	margin-left: 1.25em;
+}
+
 
 .epitome-author {
 	display: flex;
@@ -138,6 +143,7 @@ a:visited {
 	display: none;
 }
 
+
 .show-epitomes-button {
 	background-color: rgb(200, 95, 95);
 	padding: 1em 1.5em;
@@ -145,6 +151,7 @@ a:visited {
 	left: 25%;
 	margin-top: 3em;
 	font-weight: 600;
+	transition: background-color 0.3s ease 0s;
 }
 
 .show-epitomes-button:hover {
